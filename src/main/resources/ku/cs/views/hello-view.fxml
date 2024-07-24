@@ -5,11 +5,12 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: fff4ea;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="ku.cs.controllers.HelloController">
+<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: fff4ea;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
     <Label fx:id="welcomeText" />
-    <Button onAction="#onHelloButtonClick" text="Hello!" />
+    <Button onAction="#onProfileMeButtonClick" text="Profile me" />
+   <Button onAction="#onProductButtonClick" text="Product" />
 </VBox>

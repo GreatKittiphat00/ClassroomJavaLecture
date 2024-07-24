@@ -20,6 +20,7 @@ public class HelloApplication extends Application {
         String viewPath = "ku/cs/views/";
         FXRouter.when("hello", viewPath + "hello-view.fxml");
         FXRouter.when("nisit", viewPath + "nisit.fxml");
+        FXRouter.when("product", viewPath + "product-list.fxml");
     }
 
     public static void main(String[] args) {

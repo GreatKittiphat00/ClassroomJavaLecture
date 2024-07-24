@@ -11,9 +11,18 @@ public class HelloController {
     private Label welcomeText;
 
     @FXML
-    protected void onHelloButtonClick() {
+    protected void onProfileMeButtonClick() {
         try {
             FXRouter.goTo("nisit");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @FXML
+    protected void onProductButtonClick() {
+        try {
+            FXRouter.goTo("product");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
