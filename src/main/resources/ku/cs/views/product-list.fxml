@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.ProductListController">
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22" style="-fx-background-color: fff4ea;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.ProductListController">
    <children>
       <ListView fx:id="productListView" layoutX="33.0" layoutY="81.0" prefHeight="486.0" prefWidth="359.0" />
       <Label layoutX="412.0" layoutY="138.0" text="Product Name:">
